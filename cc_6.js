@@ -45,3 +45,12 @@ class Company {
     }
   }
 }
+// step 6
+const myCompany = new Company();
+
+myCompany.addEmployee(employee1);
+myCompany.addEmployee(employee2);
+myCompany.addEmployee(manager1);
+myCompany.addEmployee(manager2);
+
+myCompany.listEmployees();
